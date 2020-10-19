@@ -13,7 +13,7 @@ position: absolute;
 </style>
 <script language="javascript">
 
-Cx=500; Cy=400; R=300; A=0; dA=999999999999999;
+Cx=500; Cy=400; R=300; A=0; dA=9999999;
 function dragonfly(){
 flyX=Cx+R*Math.sin(A);
 flyY=Cy+R*Math.cos(A);
@@ -24,7 +24,7 @@ document.getElementById("fly").style.top=flyY+"px";
 setTimeout("dragonfly()", 10);
 }
 
-Cx2=500; Cy2=400; R2=300; A2=0; dA2=9999999999;
+Cx2=500; Cy2=400; R2=300; A2=0; dA2=999999;
 function dragonfly2(){
 flyX2=Cx2+R2*Math.sin(A2);
 flyY2=Cy2+R2*Math.cos(A2);
